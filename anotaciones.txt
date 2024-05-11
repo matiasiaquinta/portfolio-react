@@ -1,0 +1,40 @@
+anotar todo aca para ir aprendiendo
+--------------
+
+### Cosas para averiguar:
+- "use client" -> que hace esto?
+- (routes) -> porque se pone asi oculto en react?
+
+### Comandos para aprender:
+- comentar una linea -> //, /* */, {/* */}
+con el teclado -> CTRL + K + C
+
+### Cosas para saber en general:
+- Lo mejor es crear varios components y no escribir tanto dentro de un .tsx
+- npmjs.com -> busco paquetes para instalar en la terminal y poder usar efectos
+               y otras cosas. Esta buenisimo eso.
+
+------------------------------------------------
+- {" "} -> hago un espacio en blanco
+
+- clasName?: string -> el ? significa opcional
+
+- los directorios entre parentesis es como si no existieran, por ejemplo
+  (routes). Y ahi voy agregando todas mis otras paginas.
+
+- transiciones:
+    -> MotionTransition position="right" <-
+    Cada vez que quiero agregar una transicion ya creada, tengo que cambiar
+    la etiqueta <div></div> del elemento que quiero que tenga ese efecto, 
+    por <MotionTransition></MotionTransition>
+    Creo una vez una animacion y la replico en varios elementos, puedo cambiar
+    la posicion con position y cualquier propiedad creada en el .tsx
+
+- variables:
+    -> cuando creo una variable ejemplo <TypeAnimation> para cerrarlo,
+    puedo hacer un autoclose con "/>" que es lo mismo que </TypeAnimation>
+
+
+
+
+
