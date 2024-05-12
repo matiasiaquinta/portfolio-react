@@ -1,6 +1,3 @@
-//componentes, por ejemplo: particulas de fondo
-// github -> https://github.com/tsparticles/react/#readme
-
 "use client"
 
 import { useEffect, useState } from "react";
@@ -21,7 +18,7 @@ export const CoverParticles = () => {
 
     return (
         init &&
-        <div className="w-[0px]"> //
+        <div className="w-[0px]">
             <Particles
                 id="tsparticles"
                 options={{
